@@ -84,3 +84,5 @@ imap <C-f> <Esc>
 set scrolloff=1000
 set cursorline
 
+" Tagbar Toggl
+nmap <F8> :TagbarToggle<CR>
