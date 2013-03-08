@@ -7,3 +7,6 @@
         branch = auto
         ui = auto
 
+[code]
+[core]
+	excludesfile = /srv/bin/.gitignore

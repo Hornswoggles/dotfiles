@@ -7,6 +7,7 @@ alias ygg_status='cd /etc/systemd/system; systemctl status yggdrasil_rest_*; cd 
 alias pyinotify_restart='cd /etc/systemd/system; systemctl restart pyinotify_*; cd -'
 alias pyinotify_status='cd /etc/systemd/system; systemctl status pyinotify_*; cd -'
 alias onebox_chef='cd /opt/titan/chef; chef-solo -j onebox.json; cd -'
+alias restart_valhalla='cd /etc/systemd/system; systemctl restart valhalla_4*;cd -'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
