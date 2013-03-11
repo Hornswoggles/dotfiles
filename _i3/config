@@ -142,3 +142,8 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+# Set HDMI1 to the right of HDMI2 (work setup)
+#exec xrandr --output HDMI1 --auto --right-of HDMI2
+# Enable xautolock to run i3lock after 10 min of inactivity
+#exec xautolock -time 10 -locker 'i3lock -c 110000' &
