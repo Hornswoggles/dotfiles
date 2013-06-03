@@ -30,6 +30,9 @@ PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 # Set TERM
 TERM=screen-256color
 
+# Set TERMINAL an environment variable used bu i3-sensibe-terminal
+TERMINAL=terminator
+
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
 xterm*|rxvt*)

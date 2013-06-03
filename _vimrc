@@ -67,7 +67,7 @@ set pastetoggle=<C-p>
 
 " Show line numbers but don't copy them with mouse highlighting
 set nu
-set mouse=a
+set mouse=c
 
 " Save undo history in a file
 set undofile
