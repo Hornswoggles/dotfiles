@@ -4,6 +4,8 @@ alias tmux='tmux -2'
 # Pantheon specific
 alias ygg_restart='cd /etc/systemd/system; systemctl restart yggdrasil_rest_*; cd -'
 alias ygg_status='cd /etc/systemd/system; systemctl status yggdrasil_rest_*; cd -'
+alias val_restart='cd /etc/systemd/system; systemctl restart valhalla_4*; cd -'
+alias val_status='cd /etc/systemd/system; systemctl status valhalla_4*; cd -'
 alias status='systemctl status'
 alias start='systemctl start'
 alias stop='systemctl stop'
