@@ -144,6 +144,8 @@ bar {
 }
 
 # Set HDMI1 to the right of HDMI2 (work setup)
-#exec xrandr --output HDMI1 --auto --right-of HDMI2
+exec xrandr --output DP1 --auto --right-of HDMI3
 # Enable xautolock to run i3lock after 10 min of inactivity
-#exec xautolock -time 10 -locker 'i3lock -c 110000' &
+exec xautolock -time 10 -locker 'i3lock -c 110000' &
+# Enable dropbox
+exec --no-startup-id dropbox start
