@@ -4,10 +4,16 @@ alias tmux='tmux -2'
 # Pantheon specific
 alias ygg_restart='cd /etc/systemd/system; systemctl restart yggdrasil_rest_*; cd -'
 alias ygg_status='cd /etc/systemd/system; systemctl status yggdrasil_rest_*; cd -'
-alias pyinotify_restart='cd /etc/systemd/system; systemctl restart pyinotify_*; cd -'
-alias pyinotify_status='cd /etc/systemd/system; systemctl status pyinotify_*; cd -'
-alias onebox_chef='cd /opt/titan/chef; chef-solo -j onebox.json; cd -'
-alias restart_valhalla='cd /etc/systemd/system; systemctl restart valhalla_4*;cd -'
+alias val_restart='cd /etc/systemd/system; systemctl restart valhalla_4*; cd -'
+alias val_status='cd /etc/systemd/system; systemctl status valhalla_4*; cd -'
+alias status='systemctl status'
+alias start='systemctl start'
+alias stop='systemctl stop'
+alias restart='systemctl restart'
+alias failed='systemctl --failed --full'
+alias units='systemctl --full --all'
+alias sc='systemctl'
+alias json='python -mjson.tool'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
